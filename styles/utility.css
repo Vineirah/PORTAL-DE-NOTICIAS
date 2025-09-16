@@ -16,17 +16,17 @@
 }
 
 .text-2xl {
-    font: var(--h1)
+    font: var(--h1);
 }
 
-.text-2xl {
-    font: var(--h2)
+.text-xl {
+    font: var(--h2);
 }
 
-.text-2xl {
-    font: var(--h3)
+.text-lg {
+    font: var(--h3);
 }
 
-.text-2xl {
-    font: var(--tex-sm)
+.text-sm {
+    font: var(--tex-sm);
 }
