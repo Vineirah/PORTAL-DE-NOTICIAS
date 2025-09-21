@@ -21,6 +21,11 @@ main {
             h2 {
                 margin-top: 8px;
             }
+
+        &:has(.text-lg) {
+            padding: 12px;
+        }
+
         }       
 
         &:before {
