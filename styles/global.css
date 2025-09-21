@@ -52,8 +52,11 @@ max-width: 100%;
 }
 
 main {
-    margin-top: 40px;
-    gap: 80px;
+    margin-block: 40px;
+    row-gap:  32px;
+    column-gap: 32px;
+    grid-template-areas: "featured featured" "weekly weekly" "ia aside";
+    grid-template-columns: 2fr 1.5fr;
 }
 
 .container {

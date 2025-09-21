@@ -1,4 +1,3 @@
-
 section header {
     border-top: solid 1px var(--stroke-color);
     padding-block: 12px 24px ;
@@ -22,6 +21,7 @@ section header {
 }
 
 #featured {
+    grid-area: featured;
     img {
         height: 100%;
         object-fit: cover;
@@ -58,6 +58,9 @@ section header {
 }
 
 #weekly {
+
+    grid-area: weekly;
+
     &>div {
         grid-template-columns: repeat(4, 1fr); 
     }
@@ -79,4 +82,36 @@ img {
     }
     }
 
+}
+
+#ia {
+
+    grid-area: ia;
+
+    img {
+        width: 176px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    h3 {
+        margin-block: 8px 4px;
+    }
+}
+
+#more {
+    margin-top: 32px;
+    h3 {
+        margin-top: 8px;
+    }
+
+    img{
+    width: 72px;    
+    aspect-ratio: 1/1;
+    object-fit: cover   ;
+    }
+}
+
+aside{
+    grid-area: aside;
 }
